@@ -1,0 +1,14 @@
+a=6
+b=2
+try:
+    c=a/b
+    print(c)
+    k=int(input("enter a number"))
+    print(k)
+except ValueError as e:
+        print("invalid input")
+except ZeroDivisionError as e:
+        print("how can u divide a number with zero")
+
+
+    
