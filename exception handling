@@ -13,6 +13,9 @@ except ZeroDivisionError as e:
 except Exception as e:
     print("error name is",e)
     
+#input the value of k as a string and check the output 
+
+    
 
 
     
