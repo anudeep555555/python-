@@ -9,6 +9,10 @@ except ValueError as e:
         print("invalid input")
 except ZeroDivisionError as e:
         print("how can u divide a number with zero")
+        
+except Exception as e:
+    print("error name is",e)
+    
 
 
     
